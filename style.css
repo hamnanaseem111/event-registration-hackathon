@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background: #fff;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-section img {
+  width: 28px;
+  height: 28px;
+}
+
+.logo-section h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #57ce48;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #57ce48;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 480px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.hero-text p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #57ce48;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background:#57ce48;
+}
+
+.hero-img img {
+  width: 420px;
+  max-width: 100%;
+}
+
+/* ===== About Section ===== */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.about-left {
+  max-width: 500px;
+}
+
+.about-left h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.about-left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.date-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.date-card img {
+  width: 45px;
+}
+
+.date-text h3 {
+  font-size: 1.2rem;
+}
+
+/* ===== Details Section ===== */
+.details {
+  background: #f9f9f9;
+  padding: 60px 80px;
+  position: relative;
+}
+
+.details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.details ul {
+  list-style: none;
+}
+
+.details li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.details li img {
+  width: 20px;
+  height: 20px;
+  color: #e63946;
+}
+
+.megaphone {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
+
+.megaphone img {
+  width: 160px;
+  transform: rotate(-10deg);
+}
+
